@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+// import Share from "./Unpadh/Pages/Share";
+
+
+import { Routes, Route } from "react-router-dom";
+import Step2 from "./Unpadh/Pages/Step2.jsx";
+import Step3 from "./Unpadh/Pages/Step3.jsx";
+
+import BusinessHome from "./Unpadh/Business/BusinessHome.jsx";
+import Home from "./Unpadh/Pages/Home.jsx";
+import AdmiHome from "./Unpadh/AdminDaskboard/AdmiHome.jsx";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="business" element={<BusinessHome />} />
+         <Route path="/Admin" element={<AdmiHome/>}/>
+         
+      </Routes>
     </div>
   );
 }
