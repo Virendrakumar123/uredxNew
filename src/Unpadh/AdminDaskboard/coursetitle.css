@@ -1,3 +1,7 @@
+.title-main{
+    width: 70%;
+    /* border:1px solid black; */
+}
 .title-h2{
     /* border:  2px solid red; */
     font-weight: 800;
@@ -11,19 +15,19 @@
 
 }
 .write{
-    width: 50%;
+    width: 80%;
     
 }
 .write input{
     padding: 15px;
     width: 100%;
-    
     border-radius: 10px;
     margin-left: 20px;
     background-color: #fff;
     outline: none;
 
 }
+
 .write ::placeholder{
     font-size: 1rem;
 }
@@ -86,7 +90,7 @@
     margin-top: 20px;
 }
 .write2 input{
-    width: 50%;
+    width: 80%;
     padding: 90px;
     /* height: 100px; */
     text-align: start;
@@ -97,9 +101,10 @@
     
     
     
+    
 }
 .write2 textarea {
-    width: 50%; /* Set the width of the textarea to 100% */
+    width: 80%; /* Set the width of the textarea to 100% */
     height: 220px; /* Set the desired height of the textarea */
     padding: 10px; /* Add padding for better appearance */
     resize: vertical; 
@@ -115,6 +120,11 @@
     font-size: 1rem;
     font-family: sans-serif;
 }
+
+.dis-main{
+    /* border: 2px solid green; */
+}
+
 .dis{
     font-size: 1.2rem;
     margin-left: 20px;
@@ -125,14 +135,15 @@
 .upload{
     border:1px dashed gray;
     border-radius: 20px;
-    width:90%;
+    width:100%;
     height:300px;
-    margin-left:1.2rem;
+    /* margin-left:1.2rem; */
     margin-top:5rem;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
+    /* border: 2px solid green; */
 }
 .upload input{
     text-align: center;
@@ -155,7 +166,7 @@
 
 .inven{
     width: 30%;
-    /* border: 1px solid red; */
+  
     margin-left: 20px;
     margin-top: 30px;
     font-size: 1.3rem;
@@ -174,29 +185,38 @@ table tr td{
 
 .buttonMain{
     display: flex;
-    margin-left:1.2rem;
-    width:90%;
+   
+    /* margin-right: 60px; */
+    width:100%;
+    height: 390px;
     margin-top:20px;
     border-top:1px solid gray;
     border-bottom: 1px solid gray;
     border-right: 1px solid gray;
+    /* background-color: #fff; */
+    /* margin-bottom: 70px; */
+    /* border: 1px solid red; */
 }
 .buttons{
     display: flex;
+    height: 390px;
     flex-direction: column;
     width:30%;
+    margin-left:1.2rem;
     border-right:1px solid gray;
+   
     
 }
 
 .buttons button{
     border:none;
-    padding:14px;
+    padding:27px;
     font-size: 1.2rem;
+    background-color: #f5f7fa;
     
 }
 .buttons .one, .two{
-    border-bottom:1px solid gray;
+    border-bottom:1px solid gray;   
 }
 .component{
     width: 70%;

@@ -1,0 +1,33 @@
+.color-f{
+    background-color: #f5f7fa;
+}
+.footer{
+    width: 100%;
+    margin-top: 40px;
+    height: 10px;
+    padding: 10px;
+    border-top: 1px solid gray;
+    /* background-color: #f5f7fa; */
+    
+    
+    /* margin-top: 30px; */
+}
+.footer p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+.footer p span{
+    color: blue;
+    font-size: 1.2rem;
+    font-weight: 400;
+    
+}
+.footer p span:hover{
+    text-decoration: underline;
+}

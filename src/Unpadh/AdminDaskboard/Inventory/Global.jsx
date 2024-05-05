@@ -3,7 +3,7 @@ import Select from "react-select";
 import "../Inventory/global.css";
 
 function Global() {
-  const [selectedOption, setSelectedOption] = useState(null);
+  const [selectedOption, setSelectedOption] = useState("");
 
   const options = [
     { value: "Canada", label: "Canada" },
@@ -37,13 +37,36 @@ function Global() {
 
           <div style={{ margin: 20, width: 600 }}>
             <Select
+            // options={options}
+            // Value={selectedOption}
+            // placeholder="Type country name"
+            // onChange={setSelectedOption}
+            // isSearchable
               value={selectedOption}
               onChange={handleChange}
               options={options}
-              placeholder="Select your string"
+              placeholder="Select your string" 
               isSearchable
+
+              styles={{
+                placeholder: (baseStyle, state) => ({
+                  ...baseStyle,
+                  backgroundColor: "#fff"
+                }),
+                
+              }}
+
+
             />
           </div>
+          <div className="delivery">
+          <input type="radio" id="wide1" name="world" />
+          <label htmlFor="wide1">Local deli</label>
+          <p>
+            Only available with Shipping method:
+            <span>Fullfilled by Phoenix</span>
+          </p>
+        </div>
         </div>
       </div>
     </div>

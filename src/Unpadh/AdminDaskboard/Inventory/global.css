@@ -35,3 +35,6 @@
 .del-main .delivery p span:hover{
     text-decoration: underline;
 }
+.global-main{
+    margin-bottom: 40px;
+}

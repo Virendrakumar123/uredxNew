@@ -30,10 +30,11 @@ function Attributes() {
         <input type="checkbox" id="check" name="box" />
         <label for="check">Frozen Product</label>
         </div>
-
+        <div className="date">
         <label htmlFor="datetime" > </label>
 
-        <input type="datetime" placeholder="dd tt year" id="datetime"/>
+        <input type="date"  />
+        </div>
 
 
       
